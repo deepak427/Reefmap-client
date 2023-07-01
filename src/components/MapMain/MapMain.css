@@ -1,0 +1,36 @@
+.map-main {
+  margin-top: 4rem;
+  height: 100vh;
+  width: 100vw;
+}
+
+.map-container {
+  height: 100%;
+  width: 100%;
+}
+
+.map-container .info-window {
+  padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+  border-left: solid 2px var(--bg-primary);
+}
+
+.info-window .info-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.2rem;
+}
+
+.info-window .info-box svg {
+  padding: 0 0.6rem 0 0;
+}
+
+.info-window .info-box p {
+  margin-left: 0.25rem;
+}
+
+.gm-ui-hover-effect {
+  border: solid 3px var(--bg-primary) !important;
+  margin-top: 0.2rem !important;
+  margin-right: 0.2rem !important;
+  border-radius: 0.25rem !important;;
+}
