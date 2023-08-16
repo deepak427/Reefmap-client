@@ -16,11 +16,12 @@ const Home = () => {
 
   useEffect(() => {
     async function fetchData() {
-      const typeN = await api.fetchUnknownCoral();
-      const type0 = await api.fetchNoBleachingCoral();
+      const typeN = api.fetchUnknownCoral();
+      const type3 = api.fetchHighBleachingCoral();
+      const type2 = api.fetchMediumBleachingCoral();
       const type1 = await api.fetchLowBleachingCoral();
-      const type2 = await api.fetchMediumBleachingCoral();
-      const type3 = await api.fetchHighBleachingCoral();
+      const type0 = await api.fetchNoBleachingCoral();
+      
       setCoralsData([
         typeN.data,
         type0.data,
